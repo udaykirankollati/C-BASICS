@@ -1,18 +1,15 @@
 #include<stdio.h>
 void main()
 {
-	//vaiable declaration
-	int phy,che,mat,eng,tot;
-	//initialization
-	phy = 50;
-	che = 60;
-	
-	eng = 40;
-	// Calculation
-	tot = phy+che+mat+eng;
-	// Output
-	printf("marks in physics:% d\n",phy);
-	printf("marks in chemistry:% d\n",che);
-	printf("marks in english:% d\n",eng);
-	printf("total marks: %d",tot);
+	int a= 10, b=2;
+	a += b;
+	printf("%d %d\n",a,b);
+	a -= b;
+	printf("%d %d\n",a,b);
+	b *= a;
+	printf("%d %d\n",a,b);
+	b /= a;
+	printf("%d %d\n",a,b);
+	a %= b;
+	printf("%d %d\n",a,b);
 }
